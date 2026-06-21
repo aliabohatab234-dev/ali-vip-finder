@@ -1,0 +1,11 @@
+version = 1
+
+[module]
+type = "java-lib"
+name = "app"
+languageLevel = "JAVA_8"
+output = "build/classes"
+
+[sourceSets.main]
+scope = "IMPLEMENTATION"
+java = ["src/main/java"]
